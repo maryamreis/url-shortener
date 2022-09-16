@@ -9,10 +9,6 @@
   /* font-size: 18px; */
 }
 
-.body {
-  font-size: 18px;
-}
-
 /* Colour Scheme */
 :root {
   --cyan: #29C7C7;
@@ -63,4 +59,88 @@
 
 #sign-up-button:hover {
   opacity: 50%;
+}
+
+/* Body */
+.body {
+  padding-left: 80px;
+  margin-bottom: 20px;
+}
+
+.body-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.body-header .heading {
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 80px;
+}
+
+.body-header p {
+  color: var(--gray-violet);
+  font-size: 18px;
+  width: 70%;
+}
+
+.body-header button {
+  background-color: var(--cyan);
+  border-radius: 24px;
+  padding: 10px 30px ;
+  color: white;
+  border: none;
+  font-weight: 700;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.body-header button:hover {
+  opacity:50%
+}
+
+.cropped {
+  width: 600px; /* width of container */
+  overflow: hidden;
+}
+
+.working-image {
+  max-height: 400px;
+  object-fit: cover;
+  object-position: -80% ;
+}
+
+
+/* Shortener */
+
+
+.purple-box {
+  background-color: var(--dark-violet);
+  padding: 50px;
+  border-radius: 10px;
+  margin-left: 80px;
+  margin-right: 80px;
+
+}
+
+.purple-box input {
+  border-radius: 8px;
+  padding: 0 24px;
+  height: 50px;
+  font-size: 18px;
+  border: none;
+}
+
+.purple-box button {
+  background-color: var(--cyan);
+  border: none;
+  height: 50px;
+  border-radius: 10px;
+  margin-left: 16px;
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  padding: 0 30px;
 }
