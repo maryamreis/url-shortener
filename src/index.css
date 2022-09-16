@@ -1,6 +1,4 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
-
 
 * {
   margin: 0;
@@ -8,11 +6,61 @@
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* font-size: 18px; */
+}
+
+.body {
+  font-size: 18px;
+}
+
+/* Colour Scheme */
+:root {
+  --cyan: #29C7C7;
+  --dark-violet: #3B3054;
+  --red: #F46262;
+  --gray: #BFBFBF;
+  --gray-violet: #9E9AA7;
+  --dark-blue: #35323E;
+  --very-dark-violet: #232127;
+  --red-color-70: #e5b4b2;
+  --red-color-80: #ecc7c5;
 }
 
 
 /* Header */
+.header {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
 .navbar {
   display:flex;
   justify-content: space-between;
+  width:100%;
+}
+
+.navbar button {
+  border: none;
+  background: none;
+  margin-left: 20px;
+  font-weight: 700;
+  color: var(--gray-violet)
+}
+
+.navbar button:hover {
+  color: black;
+}
+
+#sign-up-button {
+  background-color: var(--cyan);
+  border-radius: 24px;
+  padding: 8px 20px ;
+  color: white;
+}
+
+#sign-up-button:hover {
+  opacity: 50%;
 }
