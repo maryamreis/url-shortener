@@ -3,6 +3,7 @@ import React from "react";
 import { Header } from "./components/Header";
 import { Body } from "./components/Body";
 import { Shortener } from "./components/Shortener";
+import { URLTable } from "./components/UrlTable";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <Body />
       <Shortener />
+      <URLTable />
     </div>
   );
 }

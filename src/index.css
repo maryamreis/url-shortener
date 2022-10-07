@@ -122,7 +122,8 @@
   border-radius: 10px;
   margin-left: 80px;
   margin-right: 80px;
-
+  margin-bottom: 80px;
+  width: 100%;
 }
 
 .purple-box input {
@@ -131,6 +132,7 @@
   height: 50px;
   font-size: 18px;
   border: none;
+ 
 }
 
 .purple-box button {
@@ -143,4 +145,40 @@
   font-weight: 700;
   color: white;
   padding: 0 30px;
+}
+
+.url-table {
+  margin: 80px;
+  max-width: 80%;
+  border-radius: 6px;
+  /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); */
+  border-collapse: collapse;
+
+}
+
+.url-table th {
+  background-color:  var(--gray-violet);
+  color: white;
+  text-align: left;
+
+}
+
+.url-table th,
+.url-table td {
+  padding: 12px 15px;
+  /* width:100%; */
+}
+
+.url-table tr {
+  border-bottom: 1px solid var(--gray-violet);
+  border-radius: 6px;
+}
+
+.url-table tr:nth-of-type(odd) {
+    background-color: #f3f3f3;
+}
+
+.url-table tr:hover {
+  font-weight: bold;
+  color: var(--dark-violet);
 }
